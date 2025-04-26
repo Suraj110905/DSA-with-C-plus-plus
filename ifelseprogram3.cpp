@@ -5,5 +5,11 @@ int main(){
     int num;
     cout<<"enter the number to be checked";
     cin>>num;
-    if()
+    if(num>0){
+        cout<<"Number is positive";
+    }else if(num==0){
+        cout<<"Number is zero";
+    }else{
+        cout<<"Number is negative";
+    }
 }
