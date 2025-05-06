@@ -1,19 +1,5 @@
 # include <iostream>
 using namespace std;
 int main(){
-    int c = 'a';
-    if(c=='a'){
-        cout<<"vowel";
-
-    else if(c=='e')
-        cout<<"vowel";
-    else if(c=='i')
-        cout<<"vowel";
-    else if(c=='o')
-        cout<<"vowel";
-    else if(c=='u')
-        cout<<"vowel";
-    else
-        cout<<"consonant";
-    }
+    cout<<"enter the alphabet to be checked"
 }
