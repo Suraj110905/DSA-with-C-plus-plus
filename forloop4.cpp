@@ -9,3 +9,10 @@ int main(){
         cout<<count<<endl;
     }
 }
+
+//other method using for and if
+# include <iostream>
+using namespace std;
+int main(){
+    
+}
