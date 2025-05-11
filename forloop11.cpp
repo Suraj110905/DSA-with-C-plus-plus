@@ -12,9 +12,3 @@ int main(){
     }
 }
 
-//alternative code
-for(i=6;i<=60;i=i+6){
-    cout<<i;
-}
-//taking input from user
-for(i=n;i<=10*n;i=i+n)
