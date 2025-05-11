@@ -2,13 +2,15 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n,power;
+    int n,power,num;
     cout<<"enter the number";
     cin>>n;
     cout<<"enter the power";
     cin>>power;
+    num=n;
     for(int i=1;i<power;i=i+1){
-        cout<<
+        num=num*n;
     }
+    cout<<num;
 }
 
