@@ -11,3 +11,8 @@ int main(){
         cout<<
     }
 }
+
+//alternative code
+for(i=6;i<=60;i=i+6){
+    cout<<i;
+}
