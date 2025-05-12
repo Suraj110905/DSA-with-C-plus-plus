@@ -1,10 +1,14 @@
-write a program to print factorial of n number
+//write a program to print factorial of n number
 #include<iostream>
 using namespace std;
 int main(){
-    int n;
+    int n,count;
     cout<<"enter the number";
     cin>>n;
-    cout<<(n*(n+1))/2;
+    count=1;
+    for(int i=1;i<=n;i=i+1){
+        count=count*i;
+    }
+    cout<<count;
 
 }
