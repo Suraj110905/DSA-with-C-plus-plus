@@ -7,10 +7,12 @@ int main(){
     cin>>n;
     cout<<"enter the power";
     cin>>power;
-    num=n;
+    num=n;//kyuki jab power increase hoga to use numbers ko store karana padega na
     for(int i=1;i<power;i=i+1){
         num=num*n;
     }
     cout<<num;
 }
-
+//eg...5=5*5-->25
+//       25=25*25-->125
+//.....125=12
