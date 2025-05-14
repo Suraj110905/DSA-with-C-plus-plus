@@ -2,14 +2,16 @@
 # include <iostream>
 using namespace std;
 int main(){
-    int n,a,b,c;
+    int n,t1,t2,nt;
     cout<<"enter the number";
     cin>>n;
-    a=0;
-    b=1;
-    c=a+b;
+    t1=0;
+    t2=1;
+    nt=t1+t2;
+    t1=t2;
+    t2=nt;
     for(int i=1;i<=n;i=i+1){
-        cout<<c;
+        cout<<c
     }
 
 }
