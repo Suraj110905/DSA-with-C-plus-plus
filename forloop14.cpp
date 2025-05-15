@@ -11,7 +11,7 @@ int main(){
     t1=t2;
     t2=nt;
     for(int i=1;i<=n;i=i+1){
-        cout<<c
+        cout<<c;
     }
 
 }
