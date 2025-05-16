@@ -5,7 +5,8 @@ int main(){
     int n,t1,t2,nt;
     cout<<"enter the number";
     cin>>n;
-    t1=0;
+    t1=0; 
+    
     t2=1;
     nt=t1+t2;
     t1=t2;
