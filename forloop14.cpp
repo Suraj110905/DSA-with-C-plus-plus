@@ -2,7 +2,7 @@
 # include <iostream>
 using namespace std;
 int main(){
-    int n,t1,t2,t3;
+    int a,b,t2,t3;
     cout<<"enter the number";
     cin>>n;
     t1=0; 
