@@ -5,9 +5,9 @@ int main(){
     int a,b,t2,t3;
     cout<<"enter the number";
     cin>>n;
-    t1=0; 
+    a=0; 
     
-    t2=1;
+    b=0;
 
     cout<<t1<<endl;
     cout<<t2<<endl;
