@@ -4,8 +4,8 @@ using namespace std;
 int main(){
     int a,b,t2,t3;
     cout<<"enter the number";
-    cin>>n;
-    a=0; 
+    cin>>a;
+     a=0; 
     
     b=0;
 
