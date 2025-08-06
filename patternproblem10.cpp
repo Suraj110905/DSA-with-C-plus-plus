@@ -22,4 +22,16 @@ int main(){
         }
         cout<<endl;
     }
+for(int row=n;row>=1;row--)
+    {
+        for(int col=1;col<=5-row;col++)
+        {
+            cout<<" ";
+        }
+        for(int col=1;col<=row;col++)
+        {
+            cout<<"*"<<" ";
+        }
+        cout<<endl;
+    }
 }
