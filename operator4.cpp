@@ -1,4 +1,4 @@
-//Bitwise operator(bit level operations)
+//4) Bitwise operator(bit level operations)
 
 //are works on bit-level. So, compiler first converted to bit-level and then the calculation is performed on the operands.
 
