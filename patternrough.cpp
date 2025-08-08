@@ -1,16 +1,15 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int n;
-    cout<<"enter the number";
+    int n,p,number;
+    cout<<"Enter the number";
     cin>>n;
-    for(int i=1;i<=n;i++)
-    {
-        for(int j=1;j<=n;j++)
-        {
-            cout<<i-j<<" ";
-        }
-        cout<<endl;
+    cout<<"Enter the power";
+    cin>>p;
+    number = n;
+    for(int i=1;i<p;i++){
+        number = n*p;
     }
+    cout<<number;
 }
     

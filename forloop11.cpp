@@ -11,6 +11,7 @@ int main(){
     for(int i=1;i<power;i=i+1){
         num=num*n;
     }
+    
     cout<<num;
 }
 //eg...5=5*5-->25
