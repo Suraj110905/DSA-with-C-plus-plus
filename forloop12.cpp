@@ -5,6 +5,7 @@ int main(){
     int n,count;
     cout<<"enter the number";
     cin>>n;
+    
     count=0;
     for(int i=1;i<=n;i=i+1){
         count=count+i;
