@@ -9,7 +9,7 @@
       //  cout<<"hello"<<endl;
    // }
 //}
-// wap to take input from user and print numbers of inputted value
+// wap to take input from user and print numbers of inputted value.
 #include <iostream>
 using namespace std;
 int main(){
