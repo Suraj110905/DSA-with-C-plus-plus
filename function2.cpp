@@ -1,6 +1,15 @@
 //default argument 
 # include <iostream>
 using namespace std;
-int main(){
-
+void add(int a=5,int b=10);
+int main()
+{
+    add();
+    add(10);
+    add(10,20);
+    return 0;
+}
+void add(int a,int b)
+{
+    cout<<"\naddition="<<a+b;
 }
