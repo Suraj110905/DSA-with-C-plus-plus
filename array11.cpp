@@ -18,6 +18,7 @@ int main() {
     // shift elements to the right
     for(int i = n - 1; i > 0; i--) {
         arr[i] = arr[i - 1];
+        
     }
 
     // put last element in front
