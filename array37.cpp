@@ -1,21 +1,17 @@
-//find second smallest element
+//count total number of zeroes in array
+
 #include <iostream>
 using namespace std;
 
 int main() {
-    int arr[] = {12, 13, 1, 10, 34, 1};
-    int n = 6;
-    int first = INT_MAX, second = INT_MAX;
+    int arr[] = {0, 1, 0, 2, 3, 0};
+    int n = 6, count = 0;
 
     for(int i = 0; i < n; i++) {
-        if(arr[i] < first) {
-            second = first;
-            first = arr[i];
-        } else if(arr[i] < second && arr[i] != first) {
-            second = arr[i];
-        }
+        if(arr[i] == 0)
+            count++;
     }
 
-    cout << "Second Smallest = " << second << endl;
+    cout << "Zero Count = " << count << endl;
     return 0;
 }
