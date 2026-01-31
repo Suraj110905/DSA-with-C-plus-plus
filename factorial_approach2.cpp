@@ -1,7 +1,6 @@
-#include <iostream>
-using namespace std;
+//approach 2 using while loop
 int main(){
-    int n,fact=1;
+    int n,fact;
     cout<<"enter the number";
     cin>>n;
     if(n==0)
@@ -9,10 +8,12 @@ int main(){
     else if(n<0)
         cout<<"\nfactorial is not possible";
     else{
-        for(;n>=1;n=n-1)
+        fact=1
+        while(n>=1)
+        {
             fact=fact*n;
-        cout<<"\nfactorial is "<<fact;
+            n=n-1;
+        }
+        cout<<"\nfactorial is"<<fact;
     }
-    return 0;
 }
-
